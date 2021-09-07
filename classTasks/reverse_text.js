@@ -5,9 +5,8 @@ function reverse_text(input) {
     for (let i = 0; i < reverse_array.length; i++) {
         for (let j = reverse_array[i].length - 1; j >= 0; j--) {
             array += reverse_array[i][j];
-            if (j == reverse_array[i].length - 1)
-                array += " "
         }
+        array += " "
     }
     return array
 }
